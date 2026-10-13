@@ -1,0 +1,14 @@
+{
+  "project": "pricing-suggestor",
+  "resource": "plans",
+  "samples": [
+    {
+      "id": "prc1",
+      "name": "Pro",
+      "price": 49,
+      "features": [
+        "SSO"
+      ]
+    }
+  ]
+}
