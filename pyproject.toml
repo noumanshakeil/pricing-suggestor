@@ -1,0 +1,13 @@
+[project]
+name = "pricing-suggestor"
+version = "2.0.0"
+description = "Suggest package pricing from feature packs, competitor anchors, and willingness signals."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
